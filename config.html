@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://garimahdi.github.io/klk_mockup1_design_1/css/app_styling.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://garimahdi.github.io/klk_mockup1_design_1/Media/klk_header.png">
+    <div class="homeMenu">
+        <strong>Scan Configuration</strong>
+        <br>
+        <br>
+        <form class="form">
+            <table>
+                <tr>
+                    <td class="label_spacing">
+                        <label for="tanggal" class="label">Date</label>
+                    </td>
+                    <td class="tab_spacing">
+                        <select id="tanggal" class="ddl_width">
+                            <option value="">Date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                    </td>
+                    <td class="tab_spacing">
+                        <select id="bulan" class="ddl_width">
+                            <option value="">Month</option>
+                            <option value="jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="mar">Mar</option>
+                            <option value="apr">Apr</option>
+                            <option value="may">May</option>
+                            <option value="jun">Jun</option>
+                            <option value="jul">Jul</option>
+                            <option value="aug">Aug</option>
+                            <option value="sep">Sep</option>
+                            <option value="oct">Oct</option>
+                            <option value="nov">Nov</option>
+                            <option value="dec">Dec</option>
+                        </select>
+                    </td>
+                    <td class="tab_spacing">
+                        <select id="tahun" class="ddl_width">
+                            <option value="">Year</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label_spacing">
+                        <label for="work_dept">Work Department</label>
+                    </td>
+                    <td class="tab_spacing" colspan="2">
+                        <select id="work_dept" class="deptddl_spacing">
+                            <option value="">Choose work department</option>
+                            <option value="administration">Administration</option>
+                            <option value="hr">HR</option>
+                            <option value="legal">Legal</option>
+                            <option value="payroll">Payroll</option>
+                            <option value="personal_asst">Personal Assistant</option>
+                            <option value="purchasing">Purchasing</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label_spacing">
+                        <label for="doc_type">Document Type</label>
+                    </td>
+                    <td class="tab_spacing" colspan="2">
+                        <select id="doc_type" class="docddl_spacing">
+                            <option value="">Choose document type</option>
+                            <option value="admin1">Admin - Contract Review</option>
+                            <option value="admin2">Admin - Company Policies</option>
+                            <option value="admin3">Admin - Commercial Lease Agreement</option>
+                            <option value="admin4">Admin - Agreement of Sale</option>
+                            <option value="admin5">Admin - Equipment Data</option>
+                            <option value="admin6">Admin - Equipment Maintenance</option>
+                            <option value="admin7">Admin - Expense Reports</option>
+                            <option value="hr1">HR - Job Profiles</option>
+                            <option value="hr2">HR - Organization Chart</option>
+                            <option value="hr3">HR - Staffing Plan</option>
+                            <option value="hr4">HR - Holiday Schedule</option>
+                            <option value="hr5">HR - Performance Metrics</option>
+                            <option value="hr6">HR - Training and Development</option>
+                            <option value="hr7">HR - Job Description</option>
+                            <option value="legal1">Legal - Contract of Sale</option>
+                            <option value="legal2">Legal - Bill of Sale</option>
+                            <option value="legal3">Legal - Employment Contract</option>
+                            <option value="legal4">Legal - Letter of Resignation</option>
+                            <option value="legal5">Legal - Purchase and Sale Agreement</option>
+                            <option value="legal6">Legal - Non-disclosure Agreement</option>
+                            <option value="legal7">Legal - Non-complete clause</option>
+                            <option value="payroll1">Payroll - Direct Deposit Information</option>
+                            <option value="payroll2">Payroll - Pay Records</option>
+                            <option value="payroll3">Payroll - Reimbursement Form</option>
+                            <option value="payroll4">Payroll - Tax</option>
+                            <option value="payroll5">Payroll - Paid and Unpaid Leave</option>
+                            <option value="personal_asst1">Personal Asst - Register of Investments</option>
+                            <option value="personal_asst2">Personal Asst - Books of Accounts and Cost Records</option>
+                            <option value="personal_asst3">Personal Asst - Register of Deposits</option>
+                            <option value="purchasing1">Purchasing - Requisition</option>
+                            <option value="purchasing2">Purchasing - Purchase Agreement</option>
+                            <option value="purchasing3">Purchasing - Purchase Order</option>
+                            <option value="purchasing4">Purchasing - Request for Information</option>
+                            <option value="purchasing5">Purchasing - Request for Proposal</option>
+                            <option value="purchasing6">Purchasing - Request for Quotation</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label_spacing">
+                        <label for="doc_number">Document Number</label>
+                    </td>
+                    <td class="tab_spacing" colspan="2">
+                        <input type=text placeholder="Insert document number" class="input_styling"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <table>
+            <tr>
+                <td class="tab_spacing_button">
+                    <a href="https://garimahdi.github.io/klk_mockup1_design_1/" class="button_link">
+                        <button class="button_style"><span class="arrow_style">&larr; </span>Back</button>
+                    </a>
+                </td>
+                <td class="tab_spacing_button">
+                </td>
+                <td class="tab_spacing_button">
+                </td>
+                <td class="tab_spacing_button_scan">
+                    <button type=submit class="button_style">Scan<span class="arrow_style"> &rarr;</span></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        Copyright &copy; Astragraphia <span id="anno"></span>
+    </div>
+    <script src="https://garimahdi.github.io/klk_mockup1_design_1/js/script.js"></script>
+</body>
+</html>
